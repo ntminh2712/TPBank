@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4AB4BD08C936B8B7964FBA /* Pods_TPBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49C0AE0D7BF45108CBD329A /* Pods_TPBank.framework */; };
+		CE1AC1FC2131D76A004AE93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1AC1FB2131D769004AE93B /* Assets.xcassets */; };
+		CE1AC2002132BBDC004AE93B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1AC1FF2132BBDC004AE93B /* DataService.swift */; };
+		CE30F27F21141E22007EF8F8 /* AddUserStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30F27E21141E22007EF8F8 /* AddUserStaffViewController.swift */; };
+		CE35510E21173A1E004D2CFB /* CellListUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35510D21173A1E004D2CFB /* CellListUserTableViewCell.swift */; };
+		CE35511021173B6D004D2CFB /* ListUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35510F21173B6D004D2CFB /* ListUserViewController.swift */; };
+		CE355112211A8F97004D2CFB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE355111211A8F97004D2CFB /* AccountViewController.swift */; };
+		CE355117211A9161004D2CFB /* DetailAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE355116211A9161004D2CFB /* DetailAccountViewController.swift */; };
+		CE35511A211AC59F004D2CFB /* BankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE355119211AC59F004D2CFB /* BankingViewController.swift */; };
+		CE35511C211C1B18004D2CFB /* AKRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35511B211C1B18004D2CFB /* AKRadioButtonsController.swift */; };
+		CE355120211C1D9D004D2CFB /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35511F211C1D9C004D2CFB /* DLRadioButton.m */; };
+		CE3DEB21212805B8007B3953 /* GetDetailTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DEB20212805B7007B3953 /* GetDetailTransactionController.swift */; };
+		CE3DEB232128872C007B3953 /* ListTransactionStaffController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DEB222128872C007B3953 /* ListTransactionStaffController.swift */; };
+		CE3DEB2521288955007B3953 /* CellTransactionStaffViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DEB2421288955007B3953 /* CellTransactionStaffViewCell.swift */; };
+		CE3DEB272129E617007B3953 /* HomeTPBankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DEB262129E617007B3953 /* HomeTPBankController.swift */; };
+		CE41FB56211FF95C002FDD90 /* BankingSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41FB55211FF95C002FDD90 /* BankingSuccessViewController.swift */; };
+		CE65939E212A8C7400E21ED5 /* CellMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65939D212A8C7400E21ED5 /* CellMessageViewCell.swift */; };
+		CE6593A1212AAEA900E21ED5 /* GetDetailTransactionStaffController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6593A0212AAEA900E21ED5 /* GetDetailTransactionStaffController.swift */; };
+		CE6593A3212AB6B400E21ED5 /* SearchTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6593A2212AB6B400E21ED5 /* SearchTransactionViewController.swift */; };
+		CE7A205B210F56BA00C1409E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A205A210F56BA00C1409E /* AppDelegate.swift */; };
+		CE7A205D210F56BA00C1409E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A205C210F56BA00C1409E /* LoginController.swift */; };
+		CE7A2060210F56BA00C1409E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A205E210F56BA00C1409E /* Main.storyboard */; };
+		CE7A2063210F56BA00C1409E /* TPBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2061210F56BA00C1409E /* TPBank.xcdatamodeld */; };
+		CE7A2068210F56BE00C1409E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A2066210F56BE00C1409E /* LaunchScreen.storyboard */; };
+		CE8B52642110262000FE1777 /* HomeCustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B52632110262000FE1777 /* HomeCustomerController.swift */; };
+		CE8B52662111B77000FE1777 /* HomeStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B52652111B77000FE1777 /* HomeStaffViewController.swift */; };
+		CE9B76CB211618EB00E46831 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9B76CA211618EB00E46831 /* GoogleService-Info.plist */; };
+		CEAED3902122BD6F0023BBAD /* MapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED38F2122BD6F0023BBAD /* MapkitViewController.swift */; };
+		CEAED392212324A00023BBAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAED391212324A00023BBAD /* CoreLocation.framework */; };
+		CEAED396212411570023BBAD /* ListTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED395212411570023BBAD /* ListTransactionsController.swift */; };
+		CEAED39821241E5B0023BBAD /* CellListTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED39721241E5B0023BBAD /* CellListTransactionTableViewCell.swift */; };
+		CEAED39A212423D80023BBAD /* Banking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED399212423D70023BBAD /* Banking.swift */; };
+		CEAED39C212424C90023BBAD /* CardPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED39B212424C90023BBAD /* CardPhone.swift */; };
+		CEAED39E21242DA20023BBAD /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAED39D21242DA20023BBAD /* Transaction.swift */; };
+		CED71F0D212FECA200AE3D47 /* AddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED71F0C212FECA200AE3D47 /* AddMoneyViewController.swift */; };
+		CEE4AAD82116AD8700BBE958 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4AAD72116AD8700BBE958 /* User.swift */; };
+		CEE4AADA2116B15F00BBE958 /* AddSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4AAD92116B15F00BBE958 /* AddSuccessViewController.swift */; };
+		CEF2A7C821218C61007015AF /* PhoneCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2A7C721218C61007015AF /* PhoneCardViewController.swift */; };
+		CEF2A7CA212194E6007015AF /* PhoneSusscessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2A7C9212194E6007015AF /* PhoneSusscessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5FC21BB39D65A510A4530D /* Pods-TPBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPBank/Pods-TPBank.release.xcconfig"; sourceTree = "<group>"; };
+		CE1AC1FB2131D769004AE93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1AC1FF2132BBDC004AE93B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CE30F27E21141E22007EF8F8 /* AddUserStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserStaffViewController.swift; sourceTree = "<group>"; };
+		CE35510D21173A1E004D2CFB /* CellListUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellListUserTableViewCell.swift; sourceTree = "<group>"; };
+		CE35510F21173B6D004D2CFB /* ListUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUserViewController.swift; sourceTree = "<group>"; };
+		CE355111211A8F97004D2CFB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CE355116211A9161004D2CFB /* DetailAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAccountViewController.swift; sourceTree = "<group>"; };
+		CE355119211AC59F004D2CFB /* BankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingViewController.swift; sourceTree = "<group>"; };
+		CE35511B211C1B18004D2CFB /* AKRadioButtonsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKRadioButtonsController.swift; sourceTree = "<group>"; };
+		CE35511D211C1D96004D2CFB /* TPBank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TPBank-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE35511E211C1D99004D2CFB /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = "DLRadioButton-master/DLRadioButton/DLRadioButton.h"; sourceTree = SOURCE_ROOT; };
+		CE35511F211C1D9C004D2CFB /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = SOURCE_ROOT; };
+		CE355121211C1E99004D2CFB /* RadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		CE3DEB20212805B7007B3953 /* GetDetailTransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDetailTransactionController.swift; sourceTree = "<group>"; };
+		CE3DEB222128872C007B3953 /* ListTransactionStaffController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTransactionStaffController.swift; sourceTree = "<group>"; };
+		CE3DEB2421288955007B3953 /* CellTransactionStaffViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTransactionStaffViewCell.swift; sourceTree = "<group>"; };
+		CE3DEB262129E617007B3953 /* HomeTPBankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTPBankController.swift; sourceTree = "<group>"; };
+		CE41FB55211FF95C002FDD90 /* BankingSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingSuccessViewController.swift; sourceTree = "<group>"; };
+		CE65939D212A8C7400E21ED5 /* CellMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMessageViewCell.swift; sourceTree = "<group>"; };
+		CE6593A0212AAEA900E21ED5 /* GetDetailTransactionStaffController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDetailTransactionStaffController.swift; sourceTree = "<group>"; };
+		CE6593A2212AB6B400E21ED5 /* SearchTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTransactionViewController.swift; sourceTree = "<group>"; };
+		CE7A2057210F56BA00C1409E /* TPBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7A205A210F56BA00C1409E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7A205C210F56BA00C1409E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE7A205F210F56BA00C1409E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7A2062210F56BA00C1409E /* TPBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TPBank.xcdatamodel; sourceTree = "<group>"; };
+		CE7A2067210F56BE00C1409E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7A2069210F56BE00C1409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8B52632110262000FE1777 /* HomeCustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomerController.swift; sourceTree = "<group>"; };
+		CE8B52652111B77000FE1777 /* HomeStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStaffViewController.swift; sourceTree = "<group>"; };
+		CE9B76CA211618EB00E46831 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CEAED38F2122BD6F0023BBAD /* MapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapkitViewController.swift; sourceTree = "<group>"; };
+		CEAED391212324A00023BBAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEAED395212411570023BBAD /* ListTransactionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTransactionsController.swift; sourceTree = "<group>"; };
+		CEAED39721241E5B0023BBAD /* CellListTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellListTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		CEAED399212423D70023BBAD /* Banking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking.swift; sourceTree = "<group>"; };
+		CEAED39B212424C90023BBAD /* CardPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPhone.swift; sourceTree = "<group>"; };
+		CEAED39D21242DA20023BBAD /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		CED71F0C212FECA200AE3D47 /* AddMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyViewController.swift; sourceTree = "<group>"; };
+		CEE4AAD72116AD8700BBE958 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEE4AAD92116B15F00BBE958 /* AddSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSuccessViewController.swift; sourceTree = "<group>"; };
+		CEF2A7C721218C61007015AF /* PhoneCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCardViewController.swift; sourceTree = "<group>"; };
+		CEF2A7C9212194E6007015AF /* PhoneSusscessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSusscessViewController.swift; sourceTree = "<group>"; };
+		E49C0AE0D7BF45108CBD329A /* Pods_TPBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20DB15130EEE05015E1047F /* Pods-TPBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPBank/Pods-TPBank.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7A2054210F56B900C1409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAED392212324A00023BBAD /* CoreLocation.framework in Frameworks */,
+				1A4AB4BD08C936B8B7964FBA /* Pods_TPBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A8F040AC2F69D054A2DD80F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F20DB15130EEE05015E1047F /* Pods-TPBank.debug.xcconfig */,
+				8A5FC21BB39D65A510A4530D /* Pods-TPBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF42CAA89A0D7755FB2F15E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAED391212324A00023BBAD /* CoreLocation.framework */,
+				E49C0AE0D7BF45108CBD329A /* Pods_TPBank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE35510C211739C6004D2CFB /* CellController  */ = {
+			isa = PBXGroup;
+			children = (
+				CE35510D21173A1E004D2CFB /* CellListUserTableViewCell.swift */,
+				CEAED39721241E5B0023BBAD /* CellListTransactionTableViewCell.swift */,
+				CE3DEB2421288955007B3953 /* CellTransactionStaffViewCell.swift */,
+				CE65939D212A8C7400E21ED5 /* CellMessageViewCell.swift */,
+			);
+			path = "CellController ";
+			sourceTree = "<group>";
+		};
+		CE355118211AC4FF004D2CFB /* CustomerController */ = {
+			isa = PBXGroup;
+			children = (
+				CE355111211A8F97004D2CFB /* AccountViewController.swift */,
+				CE355116211A9161004D2CFB /* DetailAccountViewController.swift */,
+				CE8B52632110262000FE1777 /* HomeCustomerController.swift */,
+				CE355119211AC59F004D2CFB /* BankingViewController.swift */,
+				CE41FB55211FF95C002FDD90 /* BankingSuccessViewController.swift */,
+				CEF2A7C721218C61007015AF /* PhoneCardViewController.swift */,
+				CEF2A7C9212194E6007015AF /* PhoneSusscessViewController.swift */,
+				CEAED38F2122BD6F0023BBAD /* MapkitViewController.swift */,
+				CEAED395212411570023BBAD /* ListTransactionsController.swift */,
+				CE3DEB20212805B7007B3953 /* GetDetailTransactionController.swift */,
+				CE3DEB262129E617007B3953 /* HomeTPBankController.swift */,
+			);
+			path = CustomerController;
+			sourceTree = "<group>";
+		};
+		CE7A204E210F56B900C1409E = {
+			isa = PBXGroup;
+			children = (
+				CE7A2072210F6B3900C1409E /* Support */,
+				CE7A2059210F56BA00C1409E /* TPBank */,
+				CE7A2058210F56BA00C1409E /* Products */,
+				6A8F040AC2F69D054A2DD80F /* Pods */,
+				BF42CAA89A0D7755FB2F15E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7A2058210F56BA00C1409E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A2057210F56BA00C1409E /* TPBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7A2059210F56BA00C1409E /* TPBank */ = {
+			isa = PBXGroup;
+			children = (
+				CE35510C211739C6004D2CFB /* CellController  */,
+				CEE4AAD62116AD6900BBE958 /* Model */,
+				CE7A2073210F6B4700C1409E /* View */,
+				CE355118211AC4FF004D2CFB /* CustomerController */,
+				CE7A2071210F6B1C00C1409E /* StaffController */,
+			);
+			path = TPBank;
+			sourceTree = "<group>";
+		};
+		CE7A2071210F6B1C00C1409E /* StaffController */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A205C210F56BA00C1409E /* LoginController.swift */,
+				CE8B52652111B77000FE1777 /* HomeStaffViewController.swift */,
+				CE30F27E21141E22007EF8F8 /* AddUserStaffViewController.swift */,
+				CEE4AAD92116B15F00BBE958 /* AddSuccessViewController.swift */,
+				CE35510F21173B6D004D2CFB /* ListUserViewController.swift */,
+				CE3DEB222128872C007B3953 /* ListTransactionStaffController.swift */,
+				CE6593A0212AAEA900E21ED5 /* GetDetailTransactionStaffController.swift */,
+				CE6593A2212AB6B400E21ED5 /* SearchTransactionViewController.swift */,
+				CED71F0C212FECA200AE3D47 /* AddMoneyViewController.swift */,
+			);
+			path = StaffController;
+			sourceTree = "<group>";
+		};
+		CE7A2072210F6B3900C1409E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B76CA211618EB00E46831 /* GoogleService-Info.plist */,
+				CE7A2069210F56BE00C1409E /* Info.plist */,
+				CE355121211C1E99004D2CFB /* RadioButton.h */,
+				CE35511E211C1D99004D2CFB /* DLRadioButton.h */,
+				CE35511F211C1D9C004D2CFB /* DLRadioButton.m */,
+				CE7A2061210F56BA00C1409E /* TPBank.xcdatamodeld */,
+				CE1AC1FB2131D769004AE93B /* Assets.xcassets */,
+				CE7A205A210F56BA00C1409E /* AppDelegate.swift */,
+				CE35511B211C1B18004D2CFB /* AKRadioButtonsController.swift */,
+				CE35511D211C1D96004D2CFB /* TPBank-Bridging-Header.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CE7A2073210F6B4700C1409E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A205E210F56BA00C1409E /* Main.storyboard */,
+				CE7A2066210F56BE00C1409E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEE4AAD62116AD6900BBE958 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4AAD72116AD8700BBE958 /* User.swift */,
+				CEAED399212423D70023BBAD /* Banking.swift */,
+				CE1AC1FF2132BBDC004AE93B /* DataService.swift */,
+				CEAED39B212424C90023BBAD /* CardPhone.swift */,
+				CEAED39D21242DA20023BBAD /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7A2056210F56B900C1409E /* TPBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7A206C210F56BE00C1409E /* Build configuration list for PBXNativeTarget "TPBank" */;
+			buildPhases = (
+				3FEE423BF962D334238AEB14 /* [CP] Check Pods Manifest.lock */,
+				CE7A2053210F56B900C1409E /* Sources */,
+				CE7A2054210F56B900C1409E /* Frameworks */,
+				CE7A2055210F56B900C1409E /* Resources */,
+				A6DC6132E23659BCA48D181D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPBank;
+			productName = TPBank;
+			productReference = CE7A2057210F56BA00C1409E /* TPBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7A204F210F56B900C1409E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tuấn Minh";
+				TargetAttributes = {
+					CE7A2056210F56B900C1409E = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = CE7A2052210F56B900C1409E /* Build configuration list for PBXProject "TPBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7A204E210F56B900C1409E;
+			productRefGroup = CE7A2058210F56BA00C1409E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7A2056210F56B900C1409E /* TPBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7A2055210F56B900C1409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7A2068210F56BE00C1409E /* LaunchScreen.storyboard in Resources */,
+				CE9B76CB211618EB00E46831 /* GoogleService-Info.plist in Resources */,
+				CE1AC1FC2131D76A004AE93B /* Assets.xcassets in Resources */,
+				CE7A2060210F56BA00C1409E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FEE423BF962D334238AEB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DC6132E23659BCA48D181D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TPBank/Pods-TPBank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TPBank/Pods-TPBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7A2053210F56B900C1409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAED39A212423D80023BBAD /* Banking.swift in Sources */,
+				CE8B52642110262000FE1777 /* HomeCustomerController.swift in Sources */,
+				CE3DEB2521288955007B3953 /* CellTransactionStaffViewCell.swift in Sources */,
+				CEAED39E21242DA20023BBAD /* Transaction.swift in Sources */,
+				CE355120211C1D9D004D2CFB /* DLRadioButton.m in Sources */,
+				CE7A205D210F56BA00C1409E /* LoginController.swift in Sources */,
+				CEF2A7C821218C61007015AF /* PhoneCardViewController.swift in Sources */,
+				CED71F0D212FECA200AE3D47 /* AddMoneyViewController.swift in Sources */,
+				CE35510E21173A1E004D2CFB /* CellListUserTableViewCell.swift in Sources */,
+				CEE4AADA2116B15F00BBE958 /* AddSuccessViewController.swift in Sources */,
+				CE30F27F21141E22007EF8F8 /* AddUserStaffViewController.swift in Sources */,
+				CE3DEB232128872C007B3953 /* ListTransactionStaffController.swift in Sources */,
+				CEAED3902122BD6F0023BBAD /* MapkitViewController.swift in Sources */,
+				CE355117211A9161004D2CFB /* DetailAccountViewController.swift in Sources */,
+				CE7A2063210F56BA00C1409E /* TPBank.xcdatamodeld in Sources */,
+				CEF2A7CA212194E6007015AF /* PhoneSusscessViewController.swift in Sources */,
+				CE6593A3212AB6B400E21ED5 /* SearchTransactionViewController.swift in Sources */,
+				CE35511C211C1B18004D2CFB /* AKRadioButtonsController.swift in Sources */,
+				CE65939E212A8C7400E21ED5 /* CellMessageViewCell.swift in Sources */,
+				CE35511A211AC59F004D2CFB /* BankingViewController.swift in Sources */,
+				CE7A205B210F56BA00C1409E /* AppDelegate.swift in Sources */,
+				CEAED39C212424C90023BBAD /* CardPhone.swift in Sources */,
+				CE41FB56211FF95C002FDD90 /* BankingSuccessViewController.swift in Sources */,
+				CE6593A1212AAEA900E21ED5 /* GetDetailTransactionStaffController.swift in Sources */,
+				CE8B52662111B77000FE1777 /* HomeStaffViewController.swift in Sources */,
+				CEAED396212411570023BBAD /* ListTransactionsController.swift in Sources */,
+				CE3DEB272129E617007B3953 /* HomeTPBankController.swift in Sources */,
+				CE1AC2002132BBDC004AE93B /* DataService.swift in Sources */,
+				CEE4AAD82116AD8700BBE958 /* User.swift in Sources */,
+				CEAED39821241E5B0023BBAD /* CellListTransactionTableViewCell.swift in Sources */,
+				CE35511021173B6D004D2CFB /* ListUserViewController.swift in Sources */,
+				CE355112211A8F97004D2CFB /* AccountViewController.swift in Sources */,
+				CE3DEB21212805B8007B3953 /* GetDetailTransactionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE7A205E210F56BA00C1409E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7A205F210F56BA00C1409E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7A2066210F56BE00C1409E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7A2067210F56BE00C1409E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7A206A210F56BE00C1409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = RadioButton.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7A206B210F56BE00C1409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = RadioButton.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7A206D210F56BE00C1409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20DB15130EEE05015E1047F /* Pods-TPBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCP3DCP6J8;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mie.chat.TPBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Support/TPBank-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7A206E210F56BE00C1409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5FC21BB39D65A510A4530D /* Pods-TPBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SCP3DCP6J8;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mie.chat.TPBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Support/TPBank-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7A2052210F56B900C1409E /* Build configuration list for PBXProject "TPBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A206A210F56BE00C1409E /* Debug */,
+				CE7A206B210F56BE00C1409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7A206C210F56BE00C1409E /* Build configuration list for PBXNativeTarget "TPBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7A206D210F56BE00C1409E /* Debug */,
+				CE7A206E210F56BE00C1409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE7A2061210F56BA00C1409E /* TPBank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE7A2062210F56BA00C1409E /* TPBank.xcdatamodel */,
+			);
+			currentVersion = CE7A2062210F56BA00C1409E /* TPBank.xcdatamodel */;
+			path = TPBank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE7A204F210F56B900C1409E /* Project object */;
+}

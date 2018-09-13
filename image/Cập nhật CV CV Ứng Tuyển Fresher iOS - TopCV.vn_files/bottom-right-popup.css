@@ -1,0 +1,224 @@
+/* GRID */
+.sj-row {
+}
+.sj-row:after {
+    clear: both;
+}
+.sj-col-6, .sj-col-12 {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sj-col-12 {
+    width: 100%;
+}
+.sj-col-6 {
+    width: 50%;
+}
+.sj-clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* END GRID */
+#sj-bottom-right-popup-root[v-cloak] {
+    display: none;
+}
+#sj-bottom-right-popup-root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42857143;
+}
+#sj-bottom-right-popup-root p {
+    margin: 0 0 10px;
+}
+.sj-text-center {
+    text-align: center;
+}
+.sj-text-bold {
+    font-weight: bold;
+}
+.sj-text-italic {
+    font-style: italic;
+}
+.sj-text-small {
+    font-size: 0.9em;
+}
+.sj-text-gray {
+    color: #999;
+}
+a.sj-text-gray:hover {
+    color: #777;
+}
+.sj-text-dark-gray {
+    color: #666;
+}
+a.sj-text-dark-gray:hover {
+    color: #444;
+}
+.sj-text-red {
+    color: #D0011B;
+}
+a.sj-text-red:hover {
+    color: #b1061c
+}
+.sj-text-light-red {
+    color: #d9534f;
+}
+.sj-text-orange {
+    color: #FF9800;
+}
+a.sj-text-orange:hover {
+    color: #fdb64d;
+}
+.sj-text-gold {
+    color: #FFEB3B !important;
+}
+.sj-text-white {
+    color: white;
+}
+a.sj-text-white:hover {
+    color: #efefef;
+}
+.sj-text-italic {
+    font-style: italic;
+}
+.sj-text-small {
+    font-size: 0.9em;
+}
+.sj-btn {
+    padding: 5px 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.sj-btn-default {
+    background-color: #f1f1f1;
+    border: 1px solid #dfdfdf;
+}
+.sj-btn-default:hover {
+    background-color: #ccc;
+}
+.sj-btn-primary {
+    background-color: #298bec;
+    color: white;
+}
+.sj-btn-primary:hover,
+.sj-btn-primary:focus,
+.sj-btn-primary:active {
+    background-color: #1a82e8;
+    color: white;
+}
+.sj-btn-border-default {
+    border: 1px solid #777;
+    color: #777;
+}
+.sj-btn-border-default:hover {
+    border: 1px solid #444;
+    color: #444;
+}
+.sj-btn-border-primary {
+    border: 1px solid #0ca25e;
+    color: #0ca25e;
+}
+.sj-btn-border-primary:hover {
+    border-color: #1a8a58;
+    color: #1a8a58;
+}
+.sj-btn-border-danger {
+    border: 1px solid #d14836;
+    color: #d14836;
+}
+.sj-btn-border-danger:hover {
+    border-color: #c53727;
+    color: #c53727;
+}
+.sj-text-highlight {
+    color: #298bec;
+}
+#sj-bottom-right-popup {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    min-height: 110px;
+    width: 300px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px #dfdfdf;
+    z-index: 220792;
+}
+.sj-bottom-right-popup-header {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #298bec;
+    color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+.sj-bottom-right-popup-header .sj-bottom-right-popup-title {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sj-bottom-right-popup-header .support-ticket-cs {
+    height: 60px;
+    margin: 20px auto;
+    text-align: center;
+}
+.sj-bottom-right-popup-close {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: white;
+}
+.sj-bottom-right-popup-time {
+    padding-top: 5px;
+    color: #444;
+}
+.sj-bottom-right-popup-body {
+    margin: 10px 10px 10px 60px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    background-color: #f6f6f6;
+}
+.sj-bottom-right-popup-body .company-avatar,
+.sj-bottom-right-popup-footer-response .user-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: -53px;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f1f1f1;
+}
+.sj-bottom-right-popup-body .company-avatar img,
+.sj-bottom-right-popup-footer-response .user-avatar img {
+    width: 100%;
+}
+.sj-bottom-right-popup-footer {
+    border-top: 1px solid #efefef;
+    padding-top: 15px;
+}
+.sj-bottom-right-popup-footer-response {
+    padding-left: 60px;
+    position: relative;
+}
+.sj-bottom-right-popup-footer-response .user-avatar {
+    left: 8px;
+    top: -6px;
+    border: 1px solid #f1f1f1;
+}

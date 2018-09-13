@@ -1,0 +1,71 @@
+#cv-form-text-editor {
+    width: 100%;
+    display: none;
+}
+.editor-controls-wraper {
+    text-align: center;
+    width: 210mm;
+    padding: 0px;
+    box-shadow: 0px 1px 2px 0px #ccc;
+    position: relative;
+}
+.editor-controls {
+    color: #333;
+    background-color: #ffffff;
+    width: 210mm;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 25px;
+}
+.editor-control {
+    display: inline-block;
+    cursor: pointer;
+    min-width: 30px;
+    padding: 5px 12px;
+    border: 1px solid #efefef;
+    border-right: 0;
+}
+.editor-control:last-child {
+    margin-right: 0;
+}
+.editor-controls:not(.disabled) .editor-control:hover {
+    color: #fff;
+    background-color: #929493;
+}
+.editor-controls:not(.disabled) .editor-control.active,
+.editor-controls:not(.disabled) .editor-control.active:hover {
+    background-color: #0ba25e;
+    color: #fff;
+}
+.editor-controls.disabled .editor-control {
+    color: #888;
+    cursor: not-allowed;
+}
+.editor-control-group {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.editor-control-group:last-child {
+    margin-right: 0;
+}
+.editor-control-group .editor-control:last-child {
+    border-right: 1px solid #efefef;
+}
+.editor-ad-btn-float-right {
+    float: right;
+    right: 65px;
+    top: 5px;
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    min-width: 30px;
+    padding: 5px 12px;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    line-height: 16px;
+}
+.editor-ad-btn-float-right:hover {
+    color: #fff;
+    background-color: #929493;
+}

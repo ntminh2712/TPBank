@@ -1,0 +1,6 @@
+framework module Pods_TPBank {
+  umbrella header "Pods-TPBank-umbrella.h"
+
+  export *
+  module * { export * }
+}

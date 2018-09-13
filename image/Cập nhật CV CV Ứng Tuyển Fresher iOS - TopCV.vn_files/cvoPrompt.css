@@ -1,0 +1,60 @@
+.cvoPromptMask {
+    text-align: center;
+    position: fixed;
+    z-index: 2207;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#frmCvoPrompt {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px auto;
+    width: 200px;
+    height: 40px;
+}
+
+/* Start rating */
+
+#frmCvoPromptStars {
+    font-size: 31pt;
+    text-align: center;
+    background-color: #1abc9c;
+    margin: 150pt auto;
+    width: 400pt;
+    border-radius: 3pt;
+    padding: 10pt;
+    font-family: FontAwesome;
+}
+#frmCvoPromptStars .cvoStarsRating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+#frmCvoPromptStars .cvoStarsRating > span {
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+#frmCvoPromptStars .cvoStarsRating > span.rated,
+#frmCvoPromptStars .cvoStarsRating > span.rated ~ span
+{
+    color: rgb(255, 253, 101);
+}
+#frmCvoPromptStars .cvoStarsRating:hover > span.rated,
+#frmCvoPromptStars .cvoStarsRating:hover > span.rated ~ span {
+    color: #FFF;
+}
+#frmCvoPromptStars .cvoStarsRating:hover > span:hover,
+#frmCvoPromptStars .cvoStarsRating:hover > span:hover ~ span,
+#frmCvoPromptStars .cvoStarsRating:hover > span.rated:hover,
+#frmCvoPromptStars .cvoStarsRating:hover > span.rated:hover ~ span
+{
+    color: rgb(255, 253, 101) !important;
+}
